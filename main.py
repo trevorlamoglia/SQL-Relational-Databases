@@ -49,8 +49,8 @@ while choice != "5":
         values = (price, name)
         cursor.execute ('UPDATE menu SET price = ? WHERE name = ?', values)
         connection.commit()
-        if cursor.rowcount == 0:
-            print('ERROR! Dish does not exist yet.')
+        # if cursor.rowcount == 0:
+        #     print('ERROR! Dish does not exist yet.')
     elif choice == "4":
         # Delete Dish
         name = get_name(cursor)
