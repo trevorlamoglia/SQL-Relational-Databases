@@ -1,8 +1,6 @@
 # Overview
 
-{Important!  Do not say in this section that this is college assignment.  Talk about what you are trying to accomplish as a software engineer to further your learning.}
-
-<!-- {Provide a description the software that you wrote and how it integrates with a SQL Relational Database. Describe how to use your program.} -->
+By learning how to use SQL to access relational databases, I can get fast and convenient data retrieval. Knowledge of SQL is an essential skill for any software engineer to possess because the convenience and speed that SQL offers for managing data means that this programming language is one of the best for communicating with databases.
 
 The purpose of this simple database will store names, ages, and birthdays for friends.
 
@@ -14,7 +12,7 @@ The purpose of this simple database will store names, ages, and birthdays for fr
 
 SQLite is an in-process library that implements a self-contained, serverless, zero-configuration, transactional SQL database engine. It is a database, which is zero-configured, which means like other databases you do not need to configure it in your system.
 
-The structure (table) that I created is a simple table that stores names, ages, and birthdays of friends.
+The structure (table) that I created is a simple table that stores names, ingredients, prices, and calories of Filipino dishes.
 
 # Development Environment
 
@@ -35,4 +33,4 @@ Python is a programming language with objects, modules, threads, and automatic m
 
 # Future Work
 
-* Add additional tables to the database and perform a join in the software between two of the tables.
+* Fix the error message if dish does not exist
